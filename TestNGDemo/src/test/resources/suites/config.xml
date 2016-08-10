@@ -6,12 +6,10 @@
 	<test verbose = "2" name = "All Tests">
 
 	
-		<classes>
-			<class name = "test.FactoryClass">
-				
-			</class>
+		<packages>
+			<package name = ".*" />
 			
-		</classes>
+		</packages>
 	</test>
 
 
