@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite">
+	<test verbose = "2" name = "All Tests">
+		<groups>
+			<run>
+				<include name = "fail" />
+			</run>
+		</groups>
+	
+		<packages>
+			<package name = "test" />
+		</packages>
+	</test>
+
+
+
+
+
+
+ <!-- <test verbose="2" name = "All Tests">
+  	<groups>
+  		<run>
+  			<include name = "Fail" />
+  		</run>
+  	</groups>
+  	
+  	<packages>
+  		<package name = ".*" />
+  	</packages>
+  </test> -->
+ 
+
+<!--  <test verbose="2" name = "Define Example">
+  	<groups>
+  		<define name = "others">
+  			<include name = "Search Claim" />
+  			<include name = "Carousel" />
+  		</define>
+  		<run>
+  			<include name = "Fail" />
+  			<include name = "others" />
+  		</run>
+  	</groups>
+  	
+  	<packages>
+  		<package name = ".*" />
+  	</packages>
+  </test> -->
+  
+<!--  <test verbose="2" name = "Include Methods Example">
+  	<groups>
+  		<run>
+  			<include name = "Fail" />
+  			<include name = "others" />
+  		</run>
+  	</groups>
+  	
+  	<classes>
+  		<class name = "welcome.TestWelcomePage">
+  			<methods>
+  				<include name = "testSelectCountry">
+  			</methods>
+  		</class>
+  		<class name = "findhealthcare.TestFindHealthCarePage" />
+  	</classes>
+  </test> -->
+  
+  <!-- <parameter name = "testParameter" value = "some value" />  
+  <test verbose="2" name = "Parameter example">
+  	<classes>
+  		<class name = "welcome.TestWelcomePage">
+  			<methods>
+  				<include name = "testTest" />
+  			</methods>
+  		</class>
+  	</classes>
+  </test> -->
+  
+  <!--  <test verbose="2" name = "DataProvider example">
+  	<classes>
+  		<class name = "welcome.TestWelcomePage">
+  			<methods>
+  				<include name = "firstMethod" />
+  				<include name = "secondMethod" />
+  			</methods>
+  		</class>
+  	</classes>
+  </test> -->
+  
+  <!--  <test verbose="2" name = "Dependency example">
+  	
+  	<groups>
+  		<dependencies>
+  			<group name = "A" depends-on = "B" />
+  		</dependencies>
+  	</groups>
+  	<classes>
+  		<class name = "welcome.TestWelcomePage">
+  			<methods>
+  				<include name = "firstMethod" />
+  				<include name = "secondMethod" />
+  			</methods>
+  		</class>
+  	</classes>
+  </test> -->
+  
+  
+<!--   <test verbose="2" name = "Factory example">
+  	<classes>
+  		<class name = "welcome.FactoryClass" />
+  	</classes>
+  </test>  -->
+ 
+</suite> 
